@@ -9,8 +9,11 @@ this.salary =  salary;
 }
 
 public String toString() {
-return (super.toString() + salary);
+return ("The scholars name and birth is " + super.toString() + ". The scholars salary is" + salary);
 }
 }
+
+
+
 
 
