@@ -9,6 +9,9 @@ this.major =  major;
 }
 
 public String toString() {
-return (super.toString() + major);
+
+//you can also do super.name or super.birth
+//adding the major because it will first print the name and birth 
+return ("The scholars name and birth is " + super.toString() + ". The scholars major is " + major);
 }
 }
