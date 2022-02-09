@@ -5,5 +5,10 @@ Scholar scholar = new Scholar("Tom", 2000 ,"Dentist");
 Scholar scholar1 = new Scholar("Lisa", 1990, "Lawyer");
 Instructor instructor1 = new Instructor ("Jerry", 1987, "Teacher", 4500);
 Instructor instructor2 = new Instructor ("Helen", 1977, "Scientist", 6000);
+
+System.out.print(scholar);
+System.out.print(scholar1);
+System.out.print(instructor1);
+System.out.print(instructor2);
 }
 }
